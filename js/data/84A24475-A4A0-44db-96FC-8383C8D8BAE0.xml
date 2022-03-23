@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.2.2.1.1.1.1.3.1", "", "Adapter", "EARoot/EA2/EA2/EA1/EA1/EA1/EA1/EA3/EA1/EA78.html", "4.png", "", "", "{01B6FDBD-80C3-490f-9D2B-8199DFEFA1BA}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.1.1.1.1.3.2", "", "Controller", "EARoot/EA2/EA2/EA1/EA1/EA1/EA1/EA3/EA2/EA79.html", "4.png", "", "", "{3E3747B9-DFE5-405f-8A9A-900369A67CDA}", "Package");
+tocTab[tocTab.length] = new Array("0.2.2.1.1.1.1.3.3", "", "Error", "EARoot/EA2/EA2/EA1/EA1/EA1/EA1/EA3/EA3/EA80.html", "4.png", "", "", "{AB415C23-6F24-4525-BBE6-F26E301F2B38}", "Package");

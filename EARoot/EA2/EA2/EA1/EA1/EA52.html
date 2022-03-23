@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>1. Backend EstacionaPlus</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA53.png" usemap="#EA53" border="0" />
+
+<MAP NAME="EA53">
+<area shape="rect" coords="585,307,715,387" href="./EA1/EA1/EA1/EA2/EA66.html" target="_self">
+<area shape="rect" coords="812,308,942,388" href="./EA1/EA1/EA1/EA1/EA65.html" target="_self">
+<area shape="rect" coords="279,306,409,386" href="./EA1/EA1/EA2/EA3/EA73.html" target="_self">
+<area shape="rect" coords="279,149,409,229" href="./EA1/EA1/EA2/EA2/EA72.html" target="_self">
+<area shape="rect" coords="55,149,185,229" href="./EA1/EA1/EA2/EA1/EA71.html" target="_self">
+<area shape="rect" coords="278,592,408,672" href="./EA1/EA1/EA3/EA3/EA80.html" target="_self">
+<area shape="rect" coords="55,706,185,786" href="./EA1/EA1/EA3/EA2/EA79.html" target="_self">
+<area shape="rect" coords="53,592,183,672" href="./EA1/EA1/EA3/EA1/EA78.html" target="_self">
+<area shape="rect" coords="35,500,427,809" href="./EA1/EA1/EA3/EA74.html" target="_self">
+<area shape="rect" coords="36,60,425,404" href="./EA1/EA1/EA2/EA67.html" target="_self">
+<area shape="rect" coords="565,232,958,403" href="./EA1/EA1/EA1/EA62.html" target="_self">
+<area shape="rect" coords="10,10,982,908" href="./EA1/EA1/EA58.html" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">1. Backend EstacionaPlus : Component diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">29/9/2021 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">21/2/2022 08:37:19</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Esteban</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{AE1F0D7A-3A3A-4be4-9840-38B1F47E855B}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>
